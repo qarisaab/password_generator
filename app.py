@@ -38,7 +38,6 @@ def generate_password(min_length, numbers=True, special_character=True):
 
     return pwd
 
-
-pwd=generate_password(10)
+pwd=generate_password(int(input("Enter the length of the password: " )))
 print(pwd)
 
